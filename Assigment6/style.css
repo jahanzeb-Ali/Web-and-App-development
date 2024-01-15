@@ -14,7 +14,7 @@
 #navigation{
     width: 100%;
 }
-table{
+ table:not(.form_table){
     width: 70%;
     margin: auto;
     background-color: #1b3868;
@@ -30,6 +30,7 @@ table{
 .nav_item,a{
     text-decoration: none;
     color: white;
+    display: inline-block;
 }
 
 td:hover{
@@ -43,4 +44,29 @@ td:hover{
     margin-bottom: 30px;
     padding: 20px;
     text-transform: uppercase;
+}
+#active{
+    background-color: #a1c2ec;
+}
+ul{
+    margin-left: 40px ;
+}
+.food_image{
+    width: 400px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+.about_cont{
+    background-color: #7fb2df;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 50px;
+}
+.para::first-letter{
+    font-size: 30px;
+    color: red;
+
+
 }
